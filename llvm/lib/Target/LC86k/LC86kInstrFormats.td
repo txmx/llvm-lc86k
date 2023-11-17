@@ -1,0 +1,1 @@
+class LC86kInstr<bits<16> 

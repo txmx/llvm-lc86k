@@ -1,0 +1,2 @@
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/DetectTestCompiler/CMakeFiles/edit_cache.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/DetectTestCompiler/CMakeFiles/rebuild_cache.dir

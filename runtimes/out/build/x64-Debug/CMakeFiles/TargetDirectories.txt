@@ -1,0 +1,6 @@
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/CMakeFiles/runtimes-test-depends.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/CMakeFiles/check-runtimes.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/llvm-lit/CMakeFiles/edit_cache.dir
+C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug/llvm-lit/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,591 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '-qversion'
+cl : Command line error D8003 : missing source filename
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WERROR_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8a43f && [1/2] Building CXX object CMakeFiles\cmTC_8a43f.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_8a43f.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WERROR_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Werror -std:c++17 /showIncludes /FoCMakeFiles\cmTC_8a43f.dir\src.cxx.obj /FdCMakeFiles\cmTC_8a43f.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Werror'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WCAST_QUAL_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f7e4a && [1/2] Building CXX object CMakeFiles\cmTC_f7e4a.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_f7e4a.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WCAST_QUAL_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wcast-qual -std:c++17 /showIncludes /FoCMakeFiles\cmTC_f7e4a.dir\src.cxx.obj /FdCMakeFiles\cmTC_f7e4a.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wcast-qual'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_364f6 && [1/2] Building CXX object CMakeFiles\cmTC_364f6.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_364f6.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WFORMAT_PEDANTIC_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wformat-pedantic -std:c++17 /showIncludes /FoCMakeFiles\cmTC_364f6.dir\src.cxx.obj /FdCMakeFiles\cmTC_364f6.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wformat-pedantic'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fb04c && [1/2] Building CXX object CMakeFiles\cmTC_fb04c.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_fb04c.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wimplicit-fallthrough -std:c++17 /showIncludes /FoCMakeFiles\cmTC_fb04c.dir\src.cxx.obj /FdCMakeFiles\cmTC_fb04c.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wimplicit-fallthrough'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WSIGN_COMPARE_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_37046 && [1/2] Building CXX object CMakeFiles\cmTC_37046.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_37046.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WSIGN_COMPARE_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wsign-compare -std:c++17 /showIncludes /FoCMakeFiles\cmTC_37046.dir\src.cxx.obj /FdCMakeFiles\cmTC_37046.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wsign-compare'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ce4db && [1/2] Building CXX object CMakeFiles\cmTC_ce4db.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_ce4db.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wenum-constexpr-conversion -std:c++17 /showIncludes /FoCMakeFiles\cmTC_ce4db.dir\src.cxx.obj /FdCMakeFiles\cmTC_ce4db.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wenum-constexpr-conversion'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WEXTRA_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_151e8 && [1/2] Building CXX object CMakeFiles\cmTC_151e8.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_151e8.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WEXTRA_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wextra -std:c++17 /showIncludes /FoCMakeFiles\cmTC_151e8.dir\src.cxx.obj /FdCMakeFiles\cmTC_151e8.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WPEDANTIC_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b53a9 && [1/2] Building CXX object CMakeFiles\cmTC_b53a9.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_b53a9.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WPEDANTIC_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wpedantic -std:c++17 /showIncludes /FoCMakeFiles\cmTC_b53a9.dir\src.cxx.obj /FdCMakeFiles\cmTC_b53a9.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wpedantic'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WMAYBE_UNINITIALIZED_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_474ec && [1/2] Building CXX object CMakeFiles\cmTC_474ec.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_474ec.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DOPENMP_HAVE_WMAYBE_UNINITIALIZED_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wmaybe-uninitialized -std:c++17 /showIncludes /FoCMakeFiles\cmTC_474ec.dir\src.cxx.obj /FdCMakeFiles\cmTC_474ec.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wmaybe-uninitialized'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is Clang using "--version" did not match "(clang version)":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is ARMClang using "--version" did not match "armclang":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : -V
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : --version
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : -V
+MASM : fatal error A1017:missing source filename
+Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+Microsoft (R) Macro Assembler (x64) Version 14.29.30147.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+MASM : warning A4018:invalid command-line option : -qversion
+MASM : fatal error A1017:missing source filename
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b5669 && [1/2] Building CXX object CMakeFiles\cmTC_b5669.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-fno-exceptions'
+[2/2] Linking CXX executable cmTC_b5669.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_RTTI_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5ce3e && [1/2] Building CXX object CMakeFiles\cmTC_5ce3e.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-fno-rtti'
+[2/2] Linking CXX executable cmTC_5ce3e.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCLASS_MEMACCESS_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_43f32 && [1/2] Building CXX object CMakeFiles\cmTC_43f32.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_43f32.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WCLASS_MEMACCESS_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wclass-memaccess -std:c++17 /showIncludes /FoCMakeFiles\cmTC_43f32.dir\src.cxx.obj /FdCMakeFiles\cmTC_43f32.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wclass-memaccess'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ecec6 && [1/2] Building CXX object CMakeFiles\cmTC_ecec6.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_ecec6.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wcovered-switch-default -std:c++17 /showIncludes /FoCMakeFiles\cmTC_ecec6.dir\src.cxx.obj /FdCMakeFiles\cmTC_ecec6.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wcovered-switch-default'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WFRAME_ADDRESS_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7e9d3 && [1/2] Building CXX object CMakeFiles\cmTC_7e9d3.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_7e9d3.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WFRAME_ADDRESS_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wframe-address -std:c++17 /showIncludes /FoCMakeFiles\cmTC_7e9d3.dir\src.cxx.obj /FdCMakeFiles\cmTC_7e9d3.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wframe-address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRICT_ALIASING_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f7f57 && [1/2] Building CXX object CMakeFiles\cmTC_f7f57.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_f7f57.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WSTRICT_ALIASING_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wstrict-aliasing -std:c++17 /showIncludes /FoCMakeFiles\cmTC_f7f57.dir\src.cxx.obj /FdCMakeFiles\cmTC_f7f57.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wstrict-aliasing'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3e479 && [1/2] Building CXX object CMakeFiles\cmTC_3e479.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_3e479.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wstringop-overflow=0 -std:c++17 /showIncludes /FoCMakeFiles\cmTC_3e479.dir\src.cxx.obj /FdCMakeFiles\cmTC_3e479.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wstringop-overflow=0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRINGOP_TRUNCATION_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1fb5d && [1/2] Building CXX object CMakeFiles\cmTC_1fb5d.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_1fb5d.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WSTRINGOP_TRUNCATION_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wstringop-truncation -std:c++17 /showIncludes /FoCMakeFiles\cmTC_1fb5d.dir\src.cxx.obj /FdCMakeFiles\cmTC_1fb5d.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wstringop-truncation'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSWITCH_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fda2c && [1/2] Building CXX object CMakeFiles\cmTC_fda2c.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_fda2c.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WSWITCH_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wswitch -std:c++17 /showIncludes /FoCMakeFiles\cmTC_fda2c.dir\src.cxx.obj /FdCMakeFiles\cmTC_fda2c.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wswitch'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WUNINITIALIZED_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2f868 && [1/2] Building CXX object CMakeFiles\cmTC_2f868.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_2f868.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WUNINITIALIZED_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wuninitialized -std:c++17 /showIncludes /FoCMakeFiles\cmTC_2f868.dir\src.cxx.obj /FdCMakeFiles\cmTC_2f868.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wuninitialized'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4c06a && [1/2] Building CXX object CMakeFiles\cmTC_4c06a.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_4c06a.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wreturn-type-c-linkage -std:c++17 /showIncludes /FoCMakeFiles\cmTC_4c06a.dir\src.cxx.obj /FdCMakeFiles\cmTC_4c06a.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wreturn-type-c-linkage'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCAST_QUAL_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ed43f && [1/2] Building CXX object CMakeFiles\cmTC_ed43f.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_ed43f.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WCAST_QUAL_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wcast-qual -std:c++17 /showIncludes /FoCMakeFiles\cmTC_ed43f.dir\src.cxx.obj /FdCMakeFiles\cmTC_ed43f.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wcast-qual'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d3f64 && [1/2] Building CXX object CMakeFiles\cmTC_d3f64.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_d3f64.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd   -Wint-to-void-pointer-cast -std:c++17 /showIncludes /FoCMakeFiles\cmTC_d3f64.dir\src.cxx.obj /FdCMakeFiles\cmTC_d3f64.dir\ /FS -c src.cxx
+cl : Command line error D8021 : invalid numeric argument '/Wint-to-void-pointer-cast'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_MSSE2_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_41c44 && [1/2] Building CXX object CMakeFiles\cmTC_41c44.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-msse2'
+[2/2] Linking CXX executable cmTC_41c44.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FTLS_MODEL_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e58da && [1/2] Building CXX object CMakeFiles\cmTC_e58da.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-ftls-model=initial-exec'
+[2/2] Linking CXX executable cmTC_e58da.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_MMIC_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4a258 && [1/2] Building C object CMakeFiles\cmTC_4a258.dir\src.c.obj
+cl : Command line warning D9002 : ignoring unknown option '-mmic'
+cl : Command line warning D9002 : ignoring unknown option '-mmic'
+[2/2] Linking C executable cmTC_4a258.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_M32_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6d12c && [1/2] Building C object CMakeFiles\cmTC_6d12c.dir\src.c.obj
+cl : Command line warning D9002 : ignoring unknown option '-m32'
+cl : Command line warning D9002 : ignoring unknown option '-m32'
+[2/2] Linking C executable cmTC_6d12c.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_ARCH_SSE2_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_68336 && [1/2] Building CXX object CMakeFiles\cmTC_68336.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+[2/2] Linking CXX executable cmTC_68336.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_QSAFESEH_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e8f79 && [1/2] Building CXX object CMakeFiles\cmTC_e8f79.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '/Qsafeseh'
+[2/2] Linking CXX executable cmTC_e8f79.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_MRTM_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1ca7d && [1/2] Building CXX object CMakeFiles\cmTC_1ca7d.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-mrtm'
+[2/2] Linking CXX executable cmTC_1ca7d.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the shm_open exist failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b33b4 && [1/2] Building C object CMakeFiles\cmTC_b33b4.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_b33b4.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b33b4.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_b33b4.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shm_open
+  return ((int*)(&shm_open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the shm_open exist failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_24666 && [1/2] Building C object CMakeFiles\cmTC_24666.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_24666.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_24666.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_24666.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shm_open
+  return ((int*)(&shm_open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the aligned_alloc exist failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_90df6 && [1/2] Building C object CMakeFiles\cmTC_90df6.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_90df6.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_90df6.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_90df6.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'aligned_alloc': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_85d79 && [1/2] Building C object CMakeFiles\cmTC_85d79.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_85d79.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_85d79.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_85d79.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'posix_memalign': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LIBOMP_HAVE_SAFESEH_FLAG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_15519 && [1/2] Building C object CMakeFiles\cmTC_15519.dir\src.c.obj
+cl : Command line warning D9002 : ignoring unknown option '/SAFESEH'
+[2/2] Linking C executable cmTC_15519.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7680d && [1/2] Building C object CMakeFiles\cmTC_7680d.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_7680d.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_7680d.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_7680d.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_ATTRIBUTE_RTM failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ef31e && [1/2] Building CXX object CMakeFiles\cmTC_ef31e.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_ef31e.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_ATTRIBUTE_RTM  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /showIncludes /FoCMakeFiles\cmTC_ef31e.dir\src.cxx.obj /FdCMakeFiles\cmTC_ef31e.dir\ /FS -c src.cxx
+src.cxx(1): error C3861: 'target': identifier not found
+src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+src.cxx(2): error C2062: type 'int' unexpected
+src.cxx(2): error C2143: syntax error: missing ';' before '{'
+src.cxx(2): error C2447: '{': missing function header (old-style formal list?)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__attribute__((target("rtm")))
+                             int main() {return 0;}
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_ATTRIBUTE_WAITPKG failed with the following output:
+Change Dir: C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/openmp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a6682 && [1/2] Building CXX object CMakeFiles\cmTC_a6682.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_a6682.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DLIBOMP_HAVE_ATTRIBUTE_WAITPKG  /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /showIncludes /FoCMakeFiles\cmTC_a6682.dir\src.cxx.obj /FdCMakeFiles\cmTC_a6682.dir\ /FS -c src.cxx
+src.cxx(1): error C3861: 'target': identifier not found
+src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+src.cxx(2): error C2062: type 'int' unexpected
+src.cxx(2): error C2143: syntax error: missing ';' before '{'
+src.cxx(2): error C2447: '{': missing function header (old-style formal list?)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__attribute__((target("waitpkg")))
+                            int main() {return 0;}

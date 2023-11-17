@@ -1,0 +1,6 @@
+#ifndef LLVM_LC86K_MC_TARGET_DESC_H
+#define LLVM_LC86K_MC_TARGET_DESC_H
+
+
+
+#endif

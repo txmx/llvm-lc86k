@@ -1,0 +1,83 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "llvm-lit",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/llvm/utils/llvm-lit"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Runtimes",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check-runtimes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-runtimes-Debug-f7817ae49d9a60b77ae7.json",
+					"name" : "check-runtimes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runtimes-test-depends::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runtimes-test-depends-Debug-f2ad988c9e8558812cca.json",
+					"name" : "runtimes-test-depends",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes/out/build/x64-Debug",
+		"source" : "C:/Users/txmxc/Documents/moms/lc86k-llvm/llvm-project/runtimes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
